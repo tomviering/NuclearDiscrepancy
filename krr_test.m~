@@ -1,0 +1,6 @@
+function yhat = krr_test(Ktst, alpha)
+% predict the labels of some test objects
+% Ktst
+yhat = Ktst*alpha;
+
+end
