@@ -42,6 +42,7 @@ dataset 13:            mnist3vs5, dim: 784, N: 1000, pos: 484, sigma: 44.215, la
 dataset 14:            mnist7vs9, dim: 784, N: 1000, pos: 510, sigma: 44.215, lambda -3.6
 dataset 15:            mnist5vs8, dim: 784, N: 1000, pos: 535, sigma: 44.215, lambda -8.9
 ```
+Note, lambda here is referring to the regularization parameter, mu = 10^(lambda). 
 
 ### res_analyse_reproduce_figures.m
 Produces the figures from the paper, such as: learning curves, decomposition of the error.
