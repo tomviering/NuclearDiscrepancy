@@ -45,7 +45,10 @@ dataset 15:            mnist5vs8, dim: 784, N: 1000, pos: 535, sigma: 44.215, la
 
 ### res_analyse_reproduce_figures.m
 Produces the figures from the paper, such as: learning curves, decomposition of the error.
-
+#### Vehicles dataset, realizeable case
+![Learning curve vehicles realizeable](https://raw.githubusercontent.com/tomviering/NuclearDiscrepancy/master/learning_curve_vehicles_realizeable.png)
+#### Vehicles dataset, decomposition of the error
+![vehicles dataset, decomposition of the error](https://raw.githubusercontent.com/tomviering/NuclearDiscrepancy/master/gum_plot_vehicles.png)
 
 ### res_analyse_reproduce_table.m
 Produces the table with the Area Under the Learning Curve of the MSE for all datasets. The output is something like:
