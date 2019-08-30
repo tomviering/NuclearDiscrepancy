@@ -1,7 +1,8 @@
 *.asv
-preprocessed/
-results/
-settings/
+preprocessed/*.mat
+results/*.mat
+settings/*.mat
 *.bash
 *.sh
 *.gz
+
