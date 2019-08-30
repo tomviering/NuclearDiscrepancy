@@ -1,0 +1,7 @@
+*.asv
+preprocessed/
+results/
+settings/
+*.bash
+*.sh
+*.gz
